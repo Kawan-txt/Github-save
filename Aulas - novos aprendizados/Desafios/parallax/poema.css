@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    min-height: 100vh;
+}
+
+p{
+    font-family: 'Belanosima', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+}
+header>h1{
+    padding: 20px;
+}
+header>p{
+    padding: 20px;
+}
+
+section>p{
+    width: 300px;
+    height: 190px;
+}
+section.img{
+    height: 300px;
+
+    background-image: url(https://cdn.nucleodoconhecimento.com.br/blog/wp-content/uploads/2020/09/publicando-livros.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section.txt{
+    width: 300px;
+    height: 150px;
+
+    padding-left: 12px;
+}
+section#image>p{
+    position: relative;
+    padding-left: 12px;
+    padding-top: 12px;
+    
+    height: 180px;
+    width: 400px;
+}
+section.img2{
+    height: 300px;
+
+    background-image: url(https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    margin-top: 120px;
+}
